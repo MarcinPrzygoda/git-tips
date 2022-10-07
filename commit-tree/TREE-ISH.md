@@ -1,7 +1,6 @@
 <!-- TOC -->
 * [Tree-ish](#tree-ish)
-  * [Most common references](#most-common-references)
-  * [`git show`](#git-show)
+  * [Examples](#examples)
 <!-- TOC -->
 
 # Tree-ish
@@ -14,7 +13,7 @@ A commit is considered **tree-ish**, because it refers to a tree at the point wh
 
 In simple terms, a **tree-ish** is a **directory**, a **commit** or a **reference**.
 
-## Most common references
+**Most common references**:
 * **SHA-1 hash:**
   * Complete 40-character string referencing a commit
   * We don't have to type all 40 characters: 4 or more are enough (usually 8-10 are used).
@@ -25,9 +24,9 @@ In simple terms, a **tree-ish** is a **directory**, a **commit** or a **referenc
   * Git keeps track of where the head is pointed by using some files in `.git/HEAD` which usually refers to something else e.g. `.git/refs/heads/main` (when we're on `main` branch) which contains SHA-1 hash
 * **Branch reference**
 * **Tag reference**
-* **Ancestry**
+* **[Ancestry](ANCESTRY.md)**
 
-## `git show`
+## Examples
 
 `git log` - show commit logs:
 
