@@ -18,21 +18,21 @@ Other formats:
 * `git log --after=2.weeks --before=3.days`
 
 ---
-`git log --author="Marcin"` - show all commits done by Marcin
+`git log --author="Marcin"` - show commits done by Marcin
 
 ![git-log-author.png](images/git-log-author.png)
 
 ---
-`git log --grep="Initial"` - show all commits that match the specified pattern
+`git log --grep="Initial"` - show commits that match the specified pattern
 
 ![git-log-grep.png](images/git-log-grep.png)
 
 ---
-`git log 01e71d96..HEAD` - show all commits in range
+`git log 01e71d96..HEAD` - show commits in range
 
 ![git-log-range.png](images/git-log-range.png)
 
 ---
-`git log commit-tree/TREE-ISH.md` - show all commits related to a file or directory
+`git log commit-tree/TREE-ISH.md` - show commits related to a file or directory
 
 ![git-log-file.png](images/git-log-file.png)

@@ -24,7 +24,7 @@ In simple terms, a **tree-ish** is a **directory**, a **commit** or a **referenc
 
 ## Examples
 
-`git log` - show commit logs:
+`git log` - show Commit Log:
 
 ![git-log.png](images/git-log.png)
 
@@ -35,6 +35,6 @@ We can use `git show` with **SHA-1 hash** (`git show 6d48` will also work):
 
 ![git-show-sha-1.png](images/git-show-sha-1.png)
 
-We also can use `git show` with **HEAD pointer reference**
+We also can use `git show` with **HEAD pointer reference**:
 
 ![git-show-head.png](images/git-show-head.png)
