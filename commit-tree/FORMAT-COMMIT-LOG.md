@@ -14,7 +14,7 @@
 
 ![git-log-format.png](images/git-log-format.png)
 
-Format options:
+**Format options:**
 * oneline
 * short
 * medium **(default)** - equivalent to `git log` command

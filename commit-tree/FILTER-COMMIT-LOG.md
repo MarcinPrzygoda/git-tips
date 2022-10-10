@@ -13,7 +13,7 @@
 
 ![git-log-until.png](images/git-log-until.png)
 
-Other formats:
+**Other formats:**
 * `git log --until="3 days ago"`
 * `git log --after=2.weeks --before=3.days`
 
