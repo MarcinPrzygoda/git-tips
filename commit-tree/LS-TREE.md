@@ -1,6 +1,5 @@
 # `git ls-tree` command
 
----
 `git ls-tree <tree-ish>` - list the contents of a [tree-ish](TREE-ISH.md). The command lists the contents of a given tree object, like what `/bin/ls -a` does in the current working directory
 
 ![git-ls-tree.png](images/git-ls-tree.png)

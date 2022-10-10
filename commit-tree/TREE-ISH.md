@@ -1,6 +1,5 @@
 # Tree-ish
 
----
 A **tree** in Git is a directory containing files and other directories.
 
 Git uses the term **tree-ish** to refer to both trees and to identifiers which references a tree.
@@ -25,7 +24,6 @@ In simple terms, a **tree-ish** is a **directory**, a **commit** or a **referenc
 
 ## Examples
 
----
 `git log` - show commit logs:
 
 ![git-log.png](images/git-log.png)

@@ -1,6 +1,5 @@
 # Filter the Commit Log
 
----
 `git log -3` - show last three commits:
 
 ![git-log-number.png](images/git-log-number.png)

@@ -1,6 +1,5 @@
 # Ancestry
 
----
 Every commit **links** to the commit that comes before it. So, most commits are going to have a **parent commit**, a **grandparent commit**, and even a **great-grandparent commit**. This is **Ancestry**.
 
 ---
@@ -26,7 +25,6 @@ Every commit **links** to the commit that comes before it. So, most commits are 
 
 ## Examples
 
----
 ![ancestry-child.png](images/ancestry-child.png)
 
 ![ancestry-parent.png](images/ancestry-parent.png)
