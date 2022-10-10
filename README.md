@@ -14,6 +14,8 @@ https://git-scm.com/docs
   * [`git ls-tree` command](commit-tree/LS-TREE.md)
   * [Filter the Commit Log](commit-tree/FILTER-COMMIT-LOG.md)
   * [Format the Commit Log](commit-tree/FORMAT-COMMIT-LOG.md)
+* **Branching**
+  * [Branching overview](branching/BRANCHING-OVERVIEW.md)
 
 ## Sources
 
