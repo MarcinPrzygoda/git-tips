@@ -1,8 +1,3 @@
-<!-- TOC -->
-* [Tree-ish](#tree-ish)
-  * [Examples](#examples)
-<!-- TOC -->
-
 # Tree-ish
 
 A **tree** in Git is a directory containing files and other directories.

@@ -1,8 +1,3 @@
-<!-- TOC -->
-* [Ancestry](#ancestry)
-  * [Examples](#examples)
-<!-- TOC -->
-
 # Ancestry
 
 Every commit **links** to the commit that comes before it. So, most commits are going to have a **parent commit**, a **grandparent commit**, and even a **great-grandparent commit**. This is **Ancestry**.
