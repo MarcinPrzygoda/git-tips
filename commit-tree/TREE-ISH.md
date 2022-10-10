@@ -1,5 +1,6 @@
 # Tree-ish
 
+---
 A **tree** in Git is a directory containing files and other directories.
 
 Git uses the term **tree-ish** to refer to both trees and to identifiers which references a tree.
@@ -8,6 +9,7 @@ A commit is considered **tree-ish**, because it refers to a tree at the point wh
 
 In simple terms, a **tree-ish** is a **directory**, a **commit** or a **reference**.
 
+---
 **Most common references**:
 * **SHA-1 hash:**
   * Complete 40-character string referencing a commit
@@ -23,10 +25,12 @@ In simple terms, a **tree-ish** is a **directory**, a **commit** or a **referenc
 
 ## Examples
 
+---
 `git log` - show commit logs:
 
 ![git-log.png](images/git-log.png)
 
+---
 `git show` - show various types of objects. For commits, it shows the log message and textual diff.
 
 We can use `git show` with **SHA-1 hash** (`git show 6d48` will also work):
