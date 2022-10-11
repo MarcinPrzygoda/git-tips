@@ -17,6 +17,7 @@ https://git-scm.com/docs
 * **Branching**
   * [Branching overview](branching/BRANCHING-OVERVIEW.md)
   * [Create branches](branching/CREATE-BRANCHES.md)
+  * [Switch branches](branching/SWITCH-BRANCHES.md)
 
 ## Sources
 
