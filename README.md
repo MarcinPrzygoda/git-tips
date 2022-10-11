@@ -16,6 +16,7 @@ https://git-scm.com/docs
   * [Format the Commit Log](commit-tree/FORMAT-COMMIT-LOG.md)
 * **Branching**
   * [Branching overview](branching/BRANCHING-OVERVIEW.md)
+  * [Create branches](branching/CREATE-BRANCHES.md)
 
 ## Sources
 
