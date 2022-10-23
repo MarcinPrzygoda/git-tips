@@ -20,6 +20,7 @@ https://git-scm.com/docs
   * [Switch branches](branching/SWITCH-BRANCHES.md)
   * [Create and switch branches](branching/CREATE-AND-SWITCH-BRANCHES.md)
   * [Switch with uncommitted changes](branching/SWITCH-WITH-UNCOMMITTED-CHANGES.md)
+  * [Compare branches](branching/COMPARE-BRANCHES.md)
 
 ## Sources
 
