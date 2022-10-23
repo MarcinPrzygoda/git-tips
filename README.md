@@ -22,6 +22,7 @@ https://git-scm.com/docs
   * [Switch with uncommitted changes](branching/SWITCH-WITH-UNCOMMITTED-CHANGES.md)
   * [Compare branches](branching/COMPARE-BRANCHES.md)
   * [Rename branches](branching/RENAME-BRANCHES.md)
+  * [Delete branches](branching/DELETE-BRANCHES.md)
 
 ## Sources
 

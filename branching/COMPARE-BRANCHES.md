@@ -12,9 +12,9 @@ Typically, you put the older branch first during comparison. In the example belo
 `git diff --color-words <tree-ish>` - **highlight changed words** using only colors (there are no `+`/`-`)
 
 ---
-`git branch --merged` - only list branches whose tips **are reachable** from the specified commit. All the commits are in checkout branch.
+`git branch --merged` - only list branches whose tips **are reachable** from the specified commit. All the commits are in checked out branch.
 
-`git branch --no-merged` - only list branches whose tips **are not reachable** from the specified commit. Not all the commits are in checkout branch.
+`git branch --no-merged` - only list branches whose tips **are not reachable** from the specified commit. Not all the commits are in checked out branch.
 
 Knowing which branches are fully included in another branch is very useful. Especially, when we start deleting branches.
 
