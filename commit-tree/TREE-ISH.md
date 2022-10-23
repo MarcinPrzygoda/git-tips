@@ -6,7 +6,7 @@ Git uses the term **tree-ish** to refer to both trees and to identifiers which r
 
 A commit is considered **tree-ish**, because it refers to a tree at the point when a commit has been applied.
 
-In simple terms, a **tree-ish** is a **directory**, a **commit** or a **reference**.
+In simple terms, a **tree-ish** is a **directory** or something that **points to a directory** (including **commits**, **tags** and **branches**).
 
 ---
 **Most common references**:
