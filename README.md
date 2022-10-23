@@ -24,6 +24,8 @@ https://git-scm.com/docs
   * [Rename branches](branching/RENAME-BRANCHES.md)
   * [Delete branches](branching/DELETE-BRANCHES.md)
   * [Configure command prompt](branching/CONFIGURE-COMMAND-PROMPT.md)
+* **Reset branches**
+  * [Reset types](reset-branches/RESET-TYPES.md)
 
 ## Sources
 
