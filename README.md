@@ -23,6 +23,7 @@ https://git-scm.com/docs
   * [Compare branches](branching/COMPARE-BRANCHES.md)
   * [Rename branches](branching/RENAME-BRANCHES.md)
   * [Delete branches](branching/DELETE-BRANCHES.md)
+  * [Configure command prompt](branching/CONFIGURE-COMMAND-PROMPT.md)
 
 ## Sources
 
