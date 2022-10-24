@@ -1,5 +1,7 @@
 # Create and switch branches
 
-`git checkout -b second_feature` - create and switch to branch `second_feature`
+`git checkout -b <new-branch>` - create `<new-branch>` branch from current branch and switch to it
+
+`git checkout -b <new-branch> <start-point>` - create `<new-branch>` branch from `<start-point>` branch and switch to it
 
 ![git-checkout-branch-create.png](images/git-checkout-branch-create.png)

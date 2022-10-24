@@ -10,6 +10,6 @@ Branch colored **green** means that this is currently checked out branch.
 
 ---
 
-`git branch new_feature` - create a branch named `new_feature`
+`git branch <branch>` - create `<branch>`
 
 ![git-branch-create.png](images/git-branch-create.png)

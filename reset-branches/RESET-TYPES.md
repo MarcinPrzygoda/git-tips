@@ -5,7 +5,7 @@
 > "Make my project look like it did back then"
 
 There are 3 types of reset:
-* **soft** - `git reset --soft <tree-ish>`:
+* **[soft](SOFT-RESET.md)** - `git reset --soft <tree-ish>`:
   * moves HEAD pointer
   * does not change staging index
   * does not change working directory

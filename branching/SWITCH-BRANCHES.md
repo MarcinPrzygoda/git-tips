@@ -1,5 +1,5 @@
 # Switch branches
 
-`git checkout new_feature` - switch to branch `new_feature`
+`git checkout <branch>` - switch to `<branch>`
 
 ![git-checkout.png](images/git-checkout.png)

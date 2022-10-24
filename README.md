@@ -26,6 +26,7 @@ https://git-scm.com/docs
   * [Configure command prompt](branching/CONFIGURE-COMMAND-PROMPT.md)
 * **Reset branches**
   * [Reset types](reset-branches/RESET-TYPES.md)
+  * [Soft reset](reset-branches/SOFT-RESET.md)
 
 ## Sources
 
