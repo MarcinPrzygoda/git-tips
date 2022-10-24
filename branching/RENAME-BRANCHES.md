@@ -1,6 +1,8 @@
 # Rename branches
 
-`git branch -m [<oldBranchName>] <newBranchName>` or `git branch --move [<oldBranchName>] <newBranchName>` - rename (move) branch. Optionally you can provide `<oldBranchName>` if you're on **different branch**. When `<oldBranchName>` is not provided, you rename **current checked out branch**.
+`git branch -m <new-branch>` - rename (move) current branch to `<new-branch>`.
+
+`git branch -m <old-branch> <new-branch>` - rename (move) `<old-branch>` to `<new-branch>`.
 
 ![git-branch-move.png](images/git-branch-move.png)
 
