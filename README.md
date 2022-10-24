@@ -27,6 +27,7 @@ https://git-scm.com/docs
 * **Reset branches**
   * [Reset types](reset-branches/RESET-TYPES.md)
   * [Soft reset](reset-branches/SOFT-RESET.md)
+  * [Mixed reset](reset-branches/MIXED-RESET.md)
 
 ## Sources
 
