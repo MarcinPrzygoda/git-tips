@@ -4,6 +4,7 @@
 
 > "Make my project look like it did back then"
 
+---
 There are 3 types of reset:
 * **[soft](SOFT-RESET.md)** - `git reset --soft <tree-ish>`:
   * moves HEAD pointer
@@ -13,9 +14,16 @@ There are 3 types of reset:
   * moves HEAD pointer
   * changes staging index to match repository
   * does not change working directory
-* **hard** - `git reset --hard <tree-ish>`:
+* **[hard](HARD-RESET.md)** - `git reset --hard <tree-ish>`:
   * moves HEAD pointer
   * changes staging index to match repository
   * changes working directory to match repository
 
+---
 Most of the time you only want to do resets, when you're working in **your own private repository** and you have not pushed up those changes to **any remote repository** or shared it with **any collaborators**.
+
+---
+`git reset <commit-hash>` - undo `git reset` command: you can do it in **short term**. When we do a reset and there's nothing pointing at those commits that are later on, then git feels like it's able to delete them during **garbage collection**
+
+
+![git-reset-undo.png](images/git-reset-undo.png)
