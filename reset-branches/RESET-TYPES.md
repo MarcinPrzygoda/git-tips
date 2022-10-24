@@ -9,7 +9,7 @@ There are 3 types of reset:
   * moves HEAD pointer
   * does not change staging index
   * does not change working directory
-* **mixed** - `git reset --mixed <tree-ish>` (this is **default** option for `git reset`):
+* **[mixed](MIXED-RESET.md)** - `git reset --mixed <tree-ish>` (this is **default** option for `git reset`):
   * moves HEAD pointer
   * changes staging index to match repository
   * does not change working directory
@@ -17,3 +17,5 @@ There are 3 types of reset:
   * moves HEAD pointer
   * changes staging index to match repository
   * changes working directory to match repository
+
+Most of the time you only want to do resets, when you're working in **your own private repository** and you have not pushed up those changes to **any remote repository** or shared it with **any collaborators**.
