@@ -25,4 +25,4 @@ if [ -f ~/.git-prompt.sh ]; then
 fi
 ```
 
-![git-prompt.png](images/git-prompt.png)
+![](images/git-prompt.png)

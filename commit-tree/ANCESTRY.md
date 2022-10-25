@@ -25,10 +25,10 @@ Every commit **links** to the commit that comes before it. So, most commits are 
 
 ## Examples
 
-![ancestry-child.png](images/ancestry-child.png)
+![](images/ancestry-child.png)
 
-![ancestry-parent.png](images/ancestry-parent.png)
+![](images/ancestry-parent.png)
 
-![ancestry-grandparent.png](images/ancestry-grandparent.png)
+![](images/ancestry-grandparent.png)
 
-![ancestry-great-grandparent.png](images/ancestry-great-grandparent.png)
+![](images/ancestry-great-grandparent.png)
