@@ -5,4 +5,4 @@
 * previous commits will be **discarded**
 * be careful about amending commits which have been **shared with others**
 
-![git-reset-mixed.png](images/git-reset-mixed.png)
+![](images/git-reset-mixed.png)

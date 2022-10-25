@@ -5,6 +5,6 @@
 * previous commits and all changes will be **discarded**
 * be careful about amending commits which have been **shared with others**
 
-![git-reset-hard.png](images/git-reset-hard.png)
+![](images/git-reset-hard.png)
 
-![git-reset-hard-branch.png](images/git-reset-hard-branch.png)
+![](images/git-reset-hard-branch.png)

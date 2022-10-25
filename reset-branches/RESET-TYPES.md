@@ -26,4 +26,4 @@ Most of the time you only want to do resets, when you're working in **your own p
 `git reset <commit-hash>` - undo `git reset` command: you can do it in **short term**. When we do a reset and there's nothing pointing at those commits that are later on, then git feels like it's able to delete them during **garbage collection**
 
 
-![git-reset-undo.png](images/git-reset-undo.png)
+![](images/git-reset-undo.png)

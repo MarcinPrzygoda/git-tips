@@ -4,9 +4,9 @@
 
 Typically, you put the older branch first during comparison. In the example below, `main` branch is older:
 
-![git-diff.png](images/git-diff-branches.png)
+![](images/git-diff-branches.png)
 
-![git-diff-branches-reverse.png](images/git-diff-branches-reverse.png)
+![](images/git-diff-branches-reverse.png)
 
 ---
 `git diff --color-words <tree-ish>` - **highlight changed words** using only colors (there are no `+`/`-`)
@@ -18,4 +18,4 @@ Typically, you put the older branch first during comparison. In the example belo
 
 Knowing which branches are fully included in another branch is very useful. Especially, when we start deleting branches.
 
-![git-branch-merged-vs-no-merged.png](images/git-branch-merged-vs-no-merged.png)
+![](images/git-branch-merged-vs-no-merged.png)

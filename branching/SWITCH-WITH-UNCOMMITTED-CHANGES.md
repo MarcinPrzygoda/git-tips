@@ -6,7 +6,7 @@ However, you can switch if:
 * changes in working directory could be applied **without conflict**
 * files **are not being tracked**
 
-![git-checkout-uncommitted.png](images/git-checkout-uncommitted.png)
+![](images/git-checkout-uncommitted.png)
 
 If you have a conflict, you can:
 * **commit** the changes to the current branch

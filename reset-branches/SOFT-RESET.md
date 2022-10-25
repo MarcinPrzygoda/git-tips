@@ -6,4 +6,4 @@
 * previous commits will be **discarded**
 * be careful about amending commits which have been **shared with others**
 
-![git-reset-soft.png](images/git-reset-soft.png)
+![](images/git-reset-soft.png)
