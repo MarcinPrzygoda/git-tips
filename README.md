@@ -2,11 +2,7 @@
 
 Tips for Git - open source distributed Version Control System (VCS)
 
-## Documentation
-
-https://git-scm.com/docs
-
-## Table of Contents
+## 🌳 Table of Contents
 
 * **Navigate the Commit Tree**
   * [Tree-ish](commit-tree/TREE-ISH.md)
@@ -29,8 +25,10 @@ https://git-scm.com/docs
   * [Soft reset](reset-branches/SOFT-RESET.md)
   * [Mixed reset](reset-branches/MIXED-RESET.md)
   * [Hard reset](reset-branches/HARD-RESET.md)
+* **Merge branches**
+  * [Merge code](merge-branches/MERGE-CODE.md)
 
-## Sources
+## ⚓ Sources
 
-* [Git Documentation](#documentation)
+* [Git Documentation](https://git-scm.com/docs)
 * ["Git: Branches, Merges, and Remotes" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-branches-merges-and-remotes)
