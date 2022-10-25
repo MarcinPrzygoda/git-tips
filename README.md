@@ -27,6 +27,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   * [Hard reset](reset-branches/HARD-RESET.md)
 * **Merge branches**
   * [Merge code](merge-branches/MERGE-CODE.md)
+  * [Fast-forward vs true merge](merge-branches/FAST-FORWARD-VS-TRUE-MERGE.md)
 
 ## ⚓ Sources
 
