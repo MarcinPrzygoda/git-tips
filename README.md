@@ -33,6 +33,7 @@ Tips for Git - open source distributed Version Control System (VCS)
 * **Stash changes**
   * [Save changes in the stash](stash-changes/SAVE-CHANGES-IN-THE-STASH.md)
   * [View stashed changes](stash-changes/VIEW-STASHED-CHANGES.md)
+  * [Retrieve stashed changed](stash-changes/RETRIEVE-STASHED-CHANGES.md)
 
 ## ⚓ Sources
 
