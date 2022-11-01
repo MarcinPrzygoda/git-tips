@@ -35,6 +35,8 @@ Tips for Git - open source distributed Version Control System (VCS)
   * [View stashed changes](stash-changes/VIEW-STASHED-CHANGES.md)
   * [Retrieve stashed changed](stash-changes/RETRIEVE-STASHED-CHANGES.md)
   * [Delete stashed changed](stash-changes/DELETE-STASHED-CHANGES.md)
+* **Set up a remote**
+  * [Local and remote repositories](setup-remote/LOCAL-AND-REMOTE-REPOSITORIES.md)
 
 ## ⚓ Sources
 
