@@ -29,6 +29,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   * [Merge code](merge-branches/MERGE-CODE.md)
   * [Fast-forward vs true merge](merge-branches/FAST-FORWARD-VS-TRUE-MERGE.md)
   * [Merge conflicts](merge-branches/MERGE-CONFLICTS.md)
+  * [Strategies to reduce conflicts](merge-branches/STRATEGIES-TO-REDUCE-CONFLICTS.md)
 
 ## ⚓ Sources
 
