@@ -1,6 +1,6 @@
 # Create branches
 
-`git branch` - show a list of branches
+`git branch` - show a list of local branches
 
 ![](images/git-branch.png)
 
