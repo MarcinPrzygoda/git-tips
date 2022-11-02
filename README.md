@@ -40,6 +40,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   * [Add a remote repository](setup-remote/ADD-REMOTE-REPOSITORY.md)
   * [Create remote branches](setup-remote/CREATE-REMOTE-BRANCHES.md)
   * [Clone remote repository](setup-remote/CLONE-REMOTE-REPOSITORY.md)
+  * [Track remote branches](setup-remote/TRACK-REMOTE-BRANCHES.md)
 
 ## ⚓ Sources
 
