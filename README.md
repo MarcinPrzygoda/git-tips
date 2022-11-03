@@ -33,8 +33,8 @@ Tips for Git - open source distributed Version Control System (VCS)
 * **Stash changes**
   * [Save changes in the stash](stash-changes/SAVE-CHANGES-IN-THE-STASH.md)
   * [View stashed changes](stash-changes/VIEW-STASHED-CHANGES.md)
-  * [Retrieve stashed changed](stash-changes/RETRIEVE-STASHED-CHANGES.md)
-  * [Delete stashed changed](stash-changes/DELETE-STASHED-CHANGES.md)
+  * [Retrieve stashed changes](stash-changes/RETRIEVE-STASHED-CHANGES.md)
+  * [Delete stashed changes](stash-changes/DELETE-STASHED-CHANGES.md)
 * **Set up a remote**
   * [Local and remote repositories](setup-remote/LOCAL-AND-REMOTE-REPOSITORIES.md)
   * [Add a remote repository](setup-remote/ADD-REMOTE-REPOSITORY.md)
@@ -43,6 +43,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   * [Track remote branches](setup-remote/TRACK-REMOTE-BRANCHES.md)
 * **Collaborate with a remote**
   * [Push changes to a remote repository](collaborate/PUSH-CHANGES-TO-REMOTE-REPO.md)
+  * [Fetch changes from a remote repository](collaborate/FETCH-CHANGES-FROM-REMOTE-REPO.md)
 
 ## ⚓ Sources
 
