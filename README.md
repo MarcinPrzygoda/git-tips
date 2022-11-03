@@ -44,6 +44,7 @@ Tips for Git - open source distributed Version Control System (VCS)
 * **Collaborate with a remote**
   * [Push changes to a remote repository](collaborate/PUSH-CHANGES-TO-REMOTE-REPO.md)
   * [Fetch changes from a remote repository](collaborate/FETCH-CHANGES-FROM-REMOTE-REPO.md)
+  * [Merge in fetched changes](collaborate/MERGE-IN-FETCHED-CHANGES.md)
 
 ## ⚓ Sources
 
