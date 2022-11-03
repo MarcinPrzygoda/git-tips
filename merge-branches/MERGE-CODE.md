@@ -1,7 +1,11 @@
-# Merge code
+# ⭐ Merge code
 
 Merge **joins** two or more development histories together.
 
-`git merge <branch>` - merge `<branch>` to current branch
+| COMMAND              | DESCRIPTION                                             |
+| -------------------- | ------------------------------------------------------- |
+| `git merge <branch>` | merge changes from `<branch>` into current local branch |
+
+## ⭐⭐ Examples
 
 ![](images/git-merge.png)
