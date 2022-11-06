@@ -1,4 +1,4 @@
-# 🔶 GIT ALIASES
+# 📋 GIT ALIASES
 
 Git allows to create **aliases** for **commonly-used** commands.
 
@@ -7,6 +7,6 @@ Git allows to create **aliases** for **commonly-used** commands.
 | `git config --global alias.<alias> "<command>"`  | add `<alias>` for git `<command>` to `${HOME}/.gitconfig`      |
 | `git config --global alias.<alias> "!<command>"` | add `<alias>` for external `<command>` to `${HOME}/.gitconfig` |
 
-## ▶️ Example
+## 📌 Example
 
 ![](images/git-alias-logg.png)
