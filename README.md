@@ -1,6 +1,14 @@
 # 📖 GIT TIPS
 
+<a href="https://ubuntu.com/" rel="noreferrer">
+    <img src="https://img.shields.io/badge/OS-Ubuntu-E95420" alt="OS: Ubuntu"/>
+</a>
+
 Tips for Git - open source distributed Version Control System (VCS)
+
+## 💿 Installation
+
+[vm-tips/SETUP-DEV-DEPENDENCIES.md#git](https://github.com/MarcinPrzygoda/vm-tips/blob/main/setup/SETUP-DEV-DEPENDENCIES.md#git)
 
 ## ⚙️ Setup
 - [Git Aliases](docs/setup/GIT-ALIASES.md)
