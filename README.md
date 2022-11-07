@@ -8,9 +8,9 @@ Tips for Git - open source distributed Version Control System (VCS)
 
 ## 💿 Installation
 
-[vm-tips/SETUP-DEV-DEPENDENCIES.md#git](https://github.com/MarcinPrzygoda/vm-tips/blob/main/setup/SETUP-DEV-DEPENDENCIES.md#git)
+[vm-tips/setup/DEV-DEPENDENCIES.md#git](https://github.com/MarcinPrzygoda/vm-tips/blob/main/docs/setup/DEV-DEPENDENCIES.md#-git)
 
-## ⚙️ Setup
+## 🔌 Setup
 - [Git Aliases](docs/setup/GIT-ALIASES.md)
 - [Git Prompt](docs/setup/GIT-PROMPT.md)
 
@@ -34,6 +34,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [Ancestry](docs/terms/ANCESTRY.md)
   - [Branching](docs/terms/BRANCHING.md)
   - [Checkout remote branches](docs/terms/CHECKOUT-REMOTE-BRANCHES.md)
+  - [Fork repository and make it private](docs/terms/PRIVATE-FORK.md)
   - [Local and remote repositories](docs/terms/LOCAL-AND-REMOTE-REPOSITORIES.md)
   - [Merge conflicts](docs/terms/MERGE-CONFLICTS.md)
   - [Track remote branches](docs/terms/TRACK-REMOTE-BRANCHES.md)
