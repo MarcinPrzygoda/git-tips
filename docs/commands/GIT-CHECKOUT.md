@@ -1,4 +1,4 @@
-# 📋 `git checkout`
+# 📋 `git checkout` - switch branches or restore working tree files
 
 | COMMAND                                      | DESCRIPTION                                                                                         |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------- |

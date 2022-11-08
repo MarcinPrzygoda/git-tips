@@ -1,4 +1,4 @@
-# 📋 `git stash`
+# 📋 `git stash` - stash the changes in a dirty working directory away
 
 Stashes are like a **little pocket** where you can put the changes and pull them out when you're ready.
 

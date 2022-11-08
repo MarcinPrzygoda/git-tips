@@ -1,4 +1,4 @@
-# 📋 `git remote`
+# 📋 `git remote` - manage set of tracked repositories
 
 | COMMAND                       | DESCRIPTION                                                                  |
 | ----------------------------- | ---------------------------------------------------------------------------- |
