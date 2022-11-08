@@ -1,6 +1,6 @@
 # 📋 DISTRIBUTED VERSION CONTROL
 
-Version control is a system that **records changes** to a file or set of files over time so that you can recall **specific versions** later.
+Version Control is a system that **records changes** to a file or set of files over time so that you can recall **specific versions** later.
 
 **Centralized Version Control** is a system (such as [CVS](https://www.gnu.org/software/trans-coord/manual/cvs/cvs.html) or [SVN](https://subversion.apache.org/)) which have a **single server** that contains all the versioned files, and a number of **clients** that check out files from that central place.
 
