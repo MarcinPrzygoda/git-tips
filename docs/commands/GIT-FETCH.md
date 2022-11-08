@@ -1,4 +1,4 @@
-# 📋 `git fetch`
+# 📋 `git fetch` - download objects and refs from another repository
 
 Fetch is basically just checking with a remote server to make sure that you have **all the information** about what's on that remote server. It **doesn't merge** anything into your existing branches.
 

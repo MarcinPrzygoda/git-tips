@@ -1,4 +1,4 @@
-# 📋 `git log`
+# 📋 `git log` - show commit logs
 
 | COMMAND   | DESCRIPTION      |
 | --------- | ---------------- |

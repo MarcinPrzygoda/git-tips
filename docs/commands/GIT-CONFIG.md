@@ -1,4 +1,4 @@
-# 📋 `git config`
+# 📋 `git config` - get and set configuration entries
 
 Configuration values list: [Git Documentation](https://git-scm.com/docs/git-config#_variables)
 

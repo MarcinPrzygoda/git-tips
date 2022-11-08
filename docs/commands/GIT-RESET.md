@@ -1,4 +1,4 @@
-# 📋 `git reset`
+# 📋 `git reset` - reset current HEAD to the specified state
 
 **Reset** changes the files in the **staging index** and/or **working directory** to the state they had when a **specified commit was made**. It moves **HEAD** pointer to a **specific commit**.
 

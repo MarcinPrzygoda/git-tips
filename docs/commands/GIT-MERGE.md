@@ -1,6 +1,4 @@
-# 📋 `git merge`
-
-Merge **joins** two or more development histories together.
+# 📋 `git merge` - join two or more development histories together
 
 | COMMAND                       | DESCRIPTION                                                                                                        |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -18,7 +16,7 @@ Most of the time you'll **let git handle merge process** and decide whether it s
 
 ## 📌 Merge conflicts
 
-See [Merge conflicts](../terms/MERGE-CONFLICTS.md)
+See [Merge conflicts](../concepts/MERGE-CONFLICTS.md)
 
 ## 📌 Example
 

@@ -1,4 +1,4 @@
-# 📋 `git pull`
+# 📋 `git pull` - fetch from and integrate with another repository or a local branch
 
 | COMMAND    | DESCRIPTION                                         |
 | ---------- | --------------------------------------------------- |
