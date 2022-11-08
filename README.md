@@ -34,6 +34,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [Ancestry](docs/terms/ANCESTRY.md)
   - [Branching](docs/terms/BRANCHING.md)
   - [Checkout remote branches](docs/terms/CHECKOUT-REMOTE-BRANCHES.md)
+  - [Distributed Version Control](docs/terms/DISTRIBUTED-VERSION-CONTROL.md)
   - [Fork repository and make it private](docs/terms/PRIVATE-FORK.md)
   - [Local and remote repositories](docs/terms/LOCAL-AND-REMOTE-REPOSITORIES.md)
   - [Merge conflicts](docs/terms/MERGE-CONFLICTS.md)
@@ -43,4 +44,5 @@ Tips for Git - open source distributed Version Control System (VCS)
 ## ⚓ Sources
 
 - [Git Documentation](https://git-scm.com/docs)
+- ["Git Essential Training: The Basics" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-essential-training-the-basics)
 - ["Git: Branches, Merges, and Remotes" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-branches-merges-and-remotes) [🔗](https://www.linkedin.com/learning/certificates/f0fba2721dd5ddb4bfc8c1bc2400dba5e018c87ac1bedb9d08961e83c8e41aba)
