@@ -24,6 +24,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git diff`](docs/commands/GIT-DIFF.md) - show changes between commits, commit and working tree, etc
   - [`git fetch`](docs/commands/GIT-FETCH.md) - download objects and refs from another repository
   - [`git help`](docs/commands/GIT-HELP.md) - display help information about Git
+  - [`git init`](docs/commands/GIT-INIT.md) - create an empty Git repository or reinitialize an existing
   - [`git log`](docs/commands/GIT-LOG.md) - show commit logs
   - [`git ls-tree`](docs/commands/GIT-LS-TREE.md) - list the contents of a tree object
   - [`git merge`](docs/commands/GIT-MERGE.md) - join two or more development histories together

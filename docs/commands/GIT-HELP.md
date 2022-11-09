@@ -2,7 +2,7 @@
 
 | COMMAND                                                                   | DESCRIPTION                   |
 | ------------------------------------------------------------------------- | ----------------------------- |
-| `git help`                                                                | list available commands       |
+| `git help`                                                                | list common commands          |
 | `git help -a`                                                             | list all available commands   |
 | `git help -g`                                                             | list concept guides           |
 | `git help <command>`<br />`git <command> --help`<br />`man git-<command>` | show help for the `<command>` |
