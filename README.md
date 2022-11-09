@@ -20,6 +20,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
   - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working tree files
   - [`git clone`](docs/commands/GIT-CLONE.md) - clone a repository into a new directory
+  - [`git commit`](docs/commands/GIT-COMMIT.md) - record changes to the repository
   - [`git config`](docs/commands/GIT-CONFIG.md) - get and set configuration entries
   - [`git diff`](docs/commands/GIT-DIFF.md) - show changes between commits, commit and working tree, etc
   - [`git fetch`](docs/commands/GIT-FETCH.md) - download objects and refs from another repository
