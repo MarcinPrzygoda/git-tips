@@ -17,6 +17,7 @@ Tips for Git - open source distributed Version Control System (VCS)
 ## 🌳 Table of Contents
 
 - **Commands**
+  - [`git add`](docs/commands/GIT-ADD.md) - add file contents to the staging index
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
   - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working tree files
   - [`git clone`](docs/commands/GIT-CLONE.md) - clone a repository into a new directory
@@ -34,6 +35,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git remote`](docs/commands/GIT-REMOTE.md) - manage set of tracked repositories
   - [`git reset`](docs/commands/GIT-RESET.md) - reset current HEAD to the specified state
   - [`git stash`](docs/commands/GIT-STASH.md) - stash the changes in a dirty working directory away
+  - [`git status`](docs/commands/GIT-STATUS.md) - show the working tree status
 - **Concepts**
   - [Ancestry](docs/concepts/ANCESTRY.md)
   - [Branching](docs/concepts/BRANCHING.md)
