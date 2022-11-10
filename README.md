@@ -19,24 +19,26 @@ Tips for Git - open source distributed Version Control System (VCS)
 - **Commands**
   - [`git add`](docs/commands/GIT-ADD.md) - add file contents to the staging index
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
-  - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working tree files
+  - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working directory files
   - [`git clone`](docs/commands/GIT-CLONE.md) - clone a repository into a new directory
   - [`git commit`](docs/commands/GIT-COMMIT.md) - record changes to the repository
   - [`git config`](docs/commands/GIT-CONFIG.md) - get and set configuration entries
-  - [`git diff`](docs/commands/GIT-DIFF.md) - show changes between commits, commit and working tree, etc
+  - [`git diff`](docs/commands/GIT-DIFF.md) - show changes between commits, commit and working directory, etc
   - [`git fetch`](docs/commands/GIT-FETCH.md) - download objects and refs from another repository
   - [`git help`](docs/commands/GIT-HELP.md) - display help information about Git
   - [`git init`](docs/commands/GIT-INIT.md) - create an empty Git repository or reinitialize an existing
   - [`git log`](docs/commands/GIT-LOG.md) - show commit logs
   - [`git ls-tree`](docs/commands/GIT-LS-TREE.md) - list the contents of a tree object
   - [`git merge`](docs/commands/GIT-MERGE.md) - join two or more development histories together
+  - [`git mv`](docs/commands/GIT-MV.md) -  - move or rename a file, a directory or a symlink
   - [`git pull`](docs/commands/GIT-PULL.md) - fetch from and integrate with another repository or a local branch
   - [`git push`](docs/commands/GIT-PUSH.md) - update remote refs along with associated objects
   - [`git remote`](docs/commands/GIT-REMOTE.md) - manage set of tracked repositories
   - [`git reset`](docs/commands/GIT-RESET.md) - reset current HEAD to the specified state
+  - [`git rm`](docs/commands/GIT-RM.md) - remove files from the working directory and from the staging index
   - [`git show`](docs/commands/GIT-SHOW.md) - show various types of objects
   - [`git stash`](docs/commands/GIT-STASH.md) - stash the changes in a dirty working directory away
-  - [`git status`](docs/commands/GIT-STATUS.md) - show the working tree status
+  - [`git status`](docs/commands/GIT-STATUS.md) - show the working directory status
 - **Concepts**
   - [Ancestry](docs/concepts/ANCESTRY.md)
   - [Branching](docs/concepts/BRANCHING.md)
