@@ -34,6 +34,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git push`](docs/commands/GIT-PUSH.md) - update remote refs along with associated objects
   - [`git remote`](docs/commands/GIT-REMOTE.md) - manage set of tracked repositories
   - [`git reset`](docs/commands/GIT-RESET.md) - reset current HEAD to the specified state
+  - [`git show`](docs/commands/GIT-SHOW.md) - show various types of objects
   - [`git stash`](docs/commands/GIT-STASH.md) - stash the changes in a dirty working directory away
   - [`git status`](docs/commands/GIT-STATUS.md) - show the working tree status
 - **Concepts**

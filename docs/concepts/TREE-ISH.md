@@ -24,10 +24,6 @@ In simple terms, a tree-ish is a **directory** or something that **points to a d
 
 ## 📌 Example
 
-| COMMAND               | DESCRIPTION                                                                           |
-| --------------------- | ------------------------------------------------------------------------------------- |
-| `git show <tree-ish>` | show various types of objects. For commits, it shows the log message and textual diff |
-
 We can use `git show` with **SHA-1 hash** (`git show 6d48` will also work):
 
 ![](images/git-show-sha-1.png)
