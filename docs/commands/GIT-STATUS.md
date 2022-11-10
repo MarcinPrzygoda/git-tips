@@ -1,8 +1,8 @@
-# 📋 `git status` - show the working tree status
+# 📋 `git status` - show the working directory status
 
 | COMMAND      | DESCRIPTION                  |
 | ------------ | ---------------------------- |
-| `git status` | show the working tree status |
+| `git status` | show the working directory status |
 
 ## 📌 Example
 

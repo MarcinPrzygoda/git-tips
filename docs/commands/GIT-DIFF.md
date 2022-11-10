@@ -1,4 +1,4 @@
-# 📋 `git diff` - show changes between commits, commit and working tree, etc
+# 📋 `git diff` - show changes between commits, commit and working directory, etc
 
 | COMMAND                                      | DESCRIPTION                                                          |
 | -------------------------------------------- | -------------------------------------------------------------------- |
