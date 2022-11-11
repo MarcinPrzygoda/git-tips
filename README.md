@@ -20,6 +20,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git add`](docs/commands/GIT-ADD.md) - add file contents to the staging index
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
   - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working directory files
+  - [`git clean`](docs/commands/GIT-CLEAN.md) - remove untracked files from the working directory
   - [`git clone`](docs/commands/GIT-CLONE.md) - clone a repository into a new directory
   - [`git commit`](docs/commands/GIT-COMMIT.md) - record changes to the repository
   - [`git config`](docs/commands/GIT-CONFIG.md) - get and set configuration entries
