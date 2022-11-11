@@ -8,11 +8,12 @@ Most of the time you only want to do resets, when you're working in **your own p
 
 ## 📌 Types of reset
 
-| COMMAND                        | DESCRIPTION                           |
-| ------------------------------ | ------------------------------------- |
-| `git reset --soft <tree-ish>`  | perform soft reset [🔗](#soft-reset)   |
-| `git reset --mixed <tree-ish>` | perform mixed reset [🔗](#mixed-reset) |
-| `git reset --hard <tree-ish>`  | perform hard reset [🔗](#hard-reset)   |
+| COMMAND                        | DESCRIPTION                                          |
+| ------------------------------ | ---------------------------------------------------- |
+| `git reset --soft <tree-ish>`  | perform soft reset [🔗](#soft-reset)                  |
+| `git reset --mixed <tree-ish>` | perform mixed reset [🔗](#mixed-reset)                |
+| `git reset --hard <tree-ish>`  | perform hard reset [🔗](#hard-reset)                  |
+| `git reset HEAD <file>...`     | unstage files (with mixed reset) [🔗](#unstage-files) |
 
 - **soft**:
   - moves HEAD pointer
@@ -38,7 +39,7 @@ Most of the time you only want to do resets, when you're working in **your own p
 ## 📌 Mixed reset
 
 - used to return to an old state and leave code changes **in working directory**
-- useful for **reorganizing** commits
+- useful for **reorganizing** commits or **unstaging** changes
 - previous commits will be **discarded**
 - be careful about amending commits which have been **shared with others**
 
@@ -76,3 +77,7 @@ Most of the time you only want to do resets, when you're working in **your own p
 ### Undo reset
 
 ![](images/git-reset-undo.png)
+
+### Unstage files
+
+![](images/git-reset-mixed-unstage.png)
