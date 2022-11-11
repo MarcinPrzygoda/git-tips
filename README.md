@@ -36,6 +36,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git remote`](docs/commands/GIT-REMOTE.md) - manage set of tracked repositories
   - [`git reset`](docs/commands/GIT-RESET.md) - reset current HEAD to the specified state
   - [`git restore`](docs/commands/GIT-RESTORE.md) - restore working directory files
+  - [`git revert`](docs/commands/GIT-REVERT.md) -  revert some existing commits
   - [`git rm`](docs/commands/GIT-RM.md) - remove files from the working directory and from the staging index
   - [`git show`](docs/commands/GIT-SHOW.md) - show various types of objects
   - [`git stash`](docs/commands/GIT-STASH.md) - stash the changes in a dirty working directory away
