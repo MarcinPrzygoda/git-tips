@@ -1,10 +1,11 @@
 # 📋 `git checkout` - switch branches or restore working directory files
 
-| COMMAND                                      | DESCRIPTION                                                                                         |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `git checkout <branch>`                      | switch to `<branch>` [🔗](#switch-to-branch)                                                         |
-| `git checkout -b <new-branch>`               | create `<new-branch>` branch from current branch and switch to it [🔗](#create-and-switch-to-branch) |
-| `git checkout -b <new-branch> <start-point>` | create `<new-branch>` branch from `<start-point>` branch and switch to it                           |
+| COMMAND                                      | DESCRIPTION                                                                                                                                |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `git checkout <branch>`                      | switch to `<branch>` [🔗](#switch-to-branch)                                                                                                |
+| `git checkout -b <new-branch>`               | create `<new-branch>` branch from current branch and switch to it [🔗](#create-and-switch-to-branch)                                        |
+| `git checkout -b <new-branch> <start-point>` | create `<new-branch>` branch from `<start-point>` branch and switch to it                                                                  |
+| `git checkout <commit> -- <file>`            | checkout old version of `<file>`: from `<commit>` on current branch, and add it to staging index (`--`) [🔗](#checkout-old-version-of-file) |
 
 ## 📌 Switch with uncommitted changes
 
@@ -32,3 +33,7 @@ If you have a conflict, you can:
 ### Switch with uncommitted changes
 
 ![](images/git-checkout-uncommitted.png)
+
+### Checkout old version of file
+
+![](images/git-checkout-old-version-of-file.png)
