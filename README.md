@@ -1,8 +1,13 @@
 # 📖 GIT TIPS
 
-<a href="https://ubuntu.com/" rel="noreferrer">
-    <img src="https://img.shields.io/badge/OS-Ubuntu-E95420" alt="OS: Ubuntu"/>
-</a>
+<p>
+  <a href="https://git-scm.com/doc" rel="noreferrer">
+      <img src="https://img.shields.io/badge/GIT-Documentation-F05033?logo=git&logoColor=white" alt="GIT: Documentation"/>
+  </a>
+  <a href="https://ubuntu.com/" rel="noreferrer">
+      <img src="https://img.shields.io/badge/OS-Ubuntu-E95420?logo=ubuntu&logoColor=white" alt="OS: Ubuntu"/>
+  </a>
+</p>
 
 Tips for Git - open source distributed Version Control System (VCS)
 
