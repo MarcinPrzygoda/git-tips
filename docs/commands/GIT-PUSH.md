@@ -1,12 +1,21 @@
 # 📋 `git push` - update remote refs along with associated objects
 
-| COMMAND                             | DESCRIPTION                                                                                                                                                                                                                                                                                                      |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `git push <repository> <branch>`    | push committed changes on `<branch>` into remote `<repository>`. The `-u` option is not needed when remote branch is already tracked                                                                                                                                                                             |
-| `git push`                          | when remote branch is tracked, you don't have to specify `<repository>` and `<branch>` parameters [🔗](#push-committed-changes-on-branch-into-remote-repository)                                                                                                                                                  |
-| `git push -u <repository> <branch>` | pushes committed changes on `<branch>` into remote `<repository>`. Use `-u` option to add upstream ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference, especially when you're creating a `<branch>` for the first time [🔗](#push-committed-changes-on-branch-into-remote-repository-and-add-upstream) |
-| `git push origin :<branch>`         | delete remote branch (local branch is not deleted). Regular push is doing `<branch>:<branch>` which is like "push `<branch>` to `<branch>`" The `:<branch>` is like "push nothing to `<branch>`". It's old style way [🔗](#delete-remote-branch-old-style-way)                                                    |
-| `git push origin --delete <branch>` | improved way of deleting remote branch [🔗](#delete-remote-branch)                                                                                                                                                                                                                                                |
+| COMMAND                                          | DESCRIPTION                                                                                                                                                                                                                                                                                                         |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git push <repository> <branch>`<br />`git push` | push committed changes on `<branch>` into remote `<repository>`. The `-u` option is not needed when remote branch is already tracked. You also don't have to specify `<repository>` and `<branch>` parameters [🔗](#push-committed-changes-on-branch-into-remote-repository)                                         |
+| `git push -u <repository> <branch>`              | pushes committed changes on `<branch>` into remote `<repository>`. Use `-u` option to add upstream ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference, especially when you're creating a `<branch>` for the first time [🔗](#push-committed-changes-on-branch-into-remote-repository-and-add-upstream) |
+| `git push -f`<br />`git push --force`            | force push, replace remote version with local version [🔗](#-force-push)                                                                                                                                                                                                                                             |
+| `git push origin :<branch>`                      | delete remote branch (local branch is not deleted). Regular push is doing `<branch>:<branch>` which is like "push `<branch>` to `<branch>`" The `:<branch>` is like "push nothing to `<branch>`". It's old style way [🔗](#delete-remote-branch-old-style-way)                                                       |
+| `git push origin --delete <branch>`              | improved way of deleting remote branch [🔗](#delete-remote-branch)                                                                                                                                                                                                                                                   |
+
+## 📌 Force Push
+
+We use force push when:
+- local version is **better** than the remote version
+- remote version went wrong and needs **repair**
+- versions have diverged and merging is **undesirable**
+
+Use it with **extreme caution**. It is an easy way to anger your whole development team, because other commits can **disappear**. Any subsequent commits that they've made in their local repository that were dependent on those commits, are now **orphaned**.
 
 ## 📌 Example
 
