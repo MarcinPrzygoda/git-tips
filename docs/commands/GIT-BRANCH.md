@@ -14,8 +14,8 @@ The default branch name in Git is **master** (in GitHub it is **main**).
 | `git branch -m <old-branch> <new-branch>` | rename (move) `<old-branch>` to `<new-branch>`                                                                                                         |
 | `git branch -d <branch>`                  | delete `<branch>` [🔗](#delete-branch)                                                                                                                  |
 | `git branch -D <branch>`                  | force delete `<branch>` [🔗](#force-delete-branch)                                                                                                      |
-| `git branch -u <upstream> <branch>`       | set `<upstream>` ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference for `<branch>`                                                          |
-| `git branch --unset-upstream <branch>`    | unset upstream ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference for `<branch>`                                                            |
+| `git branch -u <upstream> <branch>`       | set `<upstream>` ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference for `<branch>`                                                       |
+| `git branch --unset-upstream <branch>`    | unset upstream ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference for `<branch>`                                                         |
 
 ## 📌 Renaming branches
 
