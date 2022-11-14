@@ -1,11 +1,13 @@
 # 📋 `git remote` - manage set of tracked repositories
 
-| COMMAND                       | DESCRIPTION                                                                  |
-| ----------------------------- | ---------------------------------------------------------------------------- |
-| `git remote`                  | show a list of existing remotes                                              |
-| `git remote -v`               | show a list of existing remotes and remote url after name                    |
-| `git remote add <name> <url>` | add a remote named `<name>` (usually `origin`) for the repository at `<url>` |
-| `git remote remove <name>`    | remove the remote named `<name>`                                             |
+| COMMAND                                                                           | DESCRIPTION                                                                        |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `git remote`                                                                      | list existing remotes                                                              |
+| `git remote -v`                                                                   | list existing remotes together with remote url                                     |
+| `git remote add <repository> <url>`                                               | add a remote named `<repository>` (usually `origin`) for the repository at `<url>` |
+| `git remote remove <repository>`                                                  | remove the remote named `<repository>`                                             |
+| `git remote prune <repository>`                                                   | remove stale remote-tracking branches                                              |
+| `git remote prune <repository> -n`<br />`git remote prune <repository> --dry-run` | perform dry run of removing stale remote-tracking branches                         |
 
 ## 📌 Example
 
