@@ -12,6 +12,7 @@ You should:
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `git fetch <repository>`                | fetch branches and/or tags (collectively, "refs") from one or more repositories, along with the objects necessary to complete their histories. Remote-tracking branches are updated |
 | `git fetch`                             | when remote branch is tracked, you don't have to specify `<repository>` parameter                                                                                                   |
+| `git fetch --tags`                      | fetch only tags (with necessary commits)                                                                                                                                            |
 | `git fetch -p`<br />`git fetch --prune` | prune remote-tracking branches and fetch                                                                                                                                            |
 
 ## 📌 Example

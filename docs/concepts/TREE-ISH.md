@@ -19,7 +19,7 @@ In simple terms, a tree-ish is a **directory** or something that **points to a d
   - Usually it points to the commit that you made **last**, but it can be moved around
   - Git keeps track of where the head is pointed by using `.git/HEAD` **file** which usually refers to another file e.g. `.git/refs/heads/main` (when we're on `main` branch). It contains SHA-1 hash referencing a commit
 - Branch reference
-- Tag reference
+- [Tag reference](../commands/GIT-TAG.md)
 - [Ancestry](ANCESTRY.md)
 
 ## 📌 Example

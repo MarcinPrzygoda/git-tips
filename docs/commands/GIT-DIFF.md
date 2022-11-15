@@ -4,7 +4,7 @@
 | -------------------------------------------- | -------------------------------------------------------------------- |
 | `git diff`                                   | compare working directory against staging index                      |
 | `git diff --staged`<br />`git diff --cached` | compare staging index against repository                             |
-| `git diff <tree-ish>`                        | compare two files or any tree-ish [🔗](#comparing-branches)           |
+| `git diff <tree-ish>..<tree-ish>`            | compare two files or any tree-ish [🔗](#comparing-branches)           |
 | `git diff --color-words <tree-ish>`          | **highlight changed words** using only colors (there are no `+`/`-`) |
 
 ## 📌 Example

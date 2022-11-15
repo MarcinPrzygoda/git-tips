@@ -47,6 +47,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git show`](docs/commands/GIT-SHOW.md) - show various types of objects
   - [`git stash`](docs/commands/GIT-STASH.md) - stash the changes in a dirty working directory away
   - [`git status`](docs/commands/GIT-STATUS.md) - show the working directory status
+  - [`git tag`](docs/commands/GIT-TAG.md) - create, list, delete or verify a tag object signed with GPG
 - **Concepts**
   - [.gitignore](docs/concepts/GIT-IGNORE.md)
   - [.gitkeep](docs/concepts/GIT-KEEP.md)
@@ -67,3 +68,4 @@ Tips for Git - open source distributed Version Control System (VCS)
 - [Git Documentation](https://git-scm.com/docs)
 - ["Git Essential Training: The Basics" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-essential-training-the-basics) [🔗](https://www.linkedin.com/learning/certificates/9038e6a7ba9013e369aec599d77754b6d8fc369e15a88e69a623dab9552254d0)
 - ["Git: Branches, Merges, and Remotes" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-branches-merges-and-remotes) [🔗](https://www.linkedin.com/learning/certificates/f0fba2721dd5ddb4bfc8c1bc2400dba5e018c87ac1bedb9d08961e83c8e41aba)
+- ["Git Intermediate Techniques" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-intermediate-techniques-2018)
