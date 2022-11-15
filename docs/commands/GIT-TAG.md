@@ -32,6 +32,14 @@ Like branches, tags are local unless shared to a remote. The `git push` command 
 
 On the other hand, the [`git fetch`](GIT-FETCH.md) command **automatically fetches** shared tags.
 
+## 📌 Checking out tags
+
+Tags **are not branches**. Tags can be checked out, just like any commit.
+
+The **right way** to checkout a tag is to create a branch from it: [`git checkout -b <branch> <tag>`](GIT-CHECKOUT.md).
+
+It's also possible to just checkout the tag: [`git checkout <tag>`](GIT-CHECKOUT.md), but be careful with making new commits as you can end with [detached HEAD state](../concepts/DETACHED-HEAD-STATE.md).
+
 ## 📌 Examples
 
 ### Create and list lightweight tag
