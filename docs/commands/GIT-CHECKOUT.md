@@ -2,7 +2,7 @@
 
 | COMMAND                                      | DESCRIPTION                                                                                                                                |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| `git checkout <branch>`                      | switch to `<branch>` [🔗](#switch-to-branch)                                                                                                |
+| `git checkout <tree-ish>`                    | switch to any tree-ish e.g. branch, commit or tag [🔗](#switch-to-branch)                                                                   |
 | `git checkout -b <new-branch>`               | create `<new-branch>` branch from current branch and switch to it [🔗](#create-and-switch-to-branch)                                        |
 | `git checkout -b <new-branch> <start-point>` | create `<new-branch>` branch from `<start-point>` branch and switch to it                                                                  |
 | `git checkout <commit> -- <file>`            | checkout old version of `<file>`: from `<commit>` on current branch (`--`), and add it to staging index [🔗](#checkout-old-version-of-file) |
