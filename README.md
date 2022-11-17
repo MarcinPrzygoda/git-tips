@@ -23,6 +23,7 @@ Tips for Git - open source distributed Version Control System (VCS)
 
 - **Commands**
   - [`git add`](docs/commands/GIT-ADD.md) - add file contents to the staging index
+  - [`git apply`](docs/commands/GIT-APPLY.md) - apply a patch to files and/or to the staging index
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
   - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working directory files
   - [`git cherry-pick`](docs/commands/GIT-CHERRY-PICK.md) - apply the changes introduced by some existing commits
