@@ -40,9 +40,11 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git log`](docs/commands/GIT-LOG.md) - show commit logs
   - [`git ls-tree`](docs/commands/GIT-LS-TREE.md) - list the contents of a tree object
   - [`git merge`](docs/commands/GIT-MERGE.md) - join two or more development histories together
-  - [`git mv`](docs/commands/GIT-MV.md) -  - move or rename a file, a directory or a symlink
+  - [`git merge-base`](docs/commands/GIT-MERGE-BASE.md) - find as good common ancestors as possible for a merge
+  - [`git mv`](docs/commands/GIT-MV.md) - move or rename a file, a directory or a symlink
   - [`git pull`](docs/commands/GIT-PULL.md) - fetch from and integrate with another repository or a local branch
   - [`git push`](docs/commands/GIT-PUSH.md) - update remote refs along with associated objects
+  - [`git rebase`](docs/commands/GIT-REBASE.md) - reapply commits on top of another base tip
   - [`git remote`](docs/commands/GIT-REMOTE.md) - manage set of tracked repositories
   - [`git reset`](docs/commands/GIT-RESET.md) - reset current HEAD to the specified state
   - [`git restore`](docs/commands/GIT-RESTORE.md) - restore working directory files
