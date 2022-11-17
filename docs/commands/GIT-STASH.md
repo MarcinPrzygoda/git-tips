@@ -21,7 +21,7 @@ Changes in the stash are **independent of the branches** that you're on. It mean
 
 ## 📌 Conflicts when popping/applying changes
 
-When you `pop` or `apply` changes out of your stash back into your working directory, it's possible for it to **have conflicts**. And if you do have conflicts, it will work just like a `merge` does.
+When you `pop` or `apply` changes out of your stash back into your working directory, it's possible for it to **have conflicts**. And if you do have conflicts, it will work just like a [`merge`](../concepts/MERGE-CONFLICTS.md) does.
 
 ## 📌 Example
 
