@@ -23,6 +23,7 @@ Tips for Git - open source distributed Version Control System (VCS)
 
 - **Commands**
   - [`git add`](docs/commands/GIT-ADD.md) - add file contents to the staging index
+  - [`git am`](docs/commands/GIT-AM.md) - apply a series of patches from a mailbox
   - [`git apply`](docs/commands/GIT-APPLY.md) - apply a patch to files and/or to the staging index
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
   - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working directory files
@@ -33,6 +34,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git config`](docs/commands/GIT-CONFIG.md) - get and set configuration entries
   - [`git diff`](docs/commands/GIT-DIFF.md) - show changes between commits, commit and working directory, etc
   - [`git fetch`](docs/commands/GIT-FETCH.md) - download objects and refs from another repository
+  - [`git format-patch`](docs/commands/GIT-FORMAT-PATCH.md) - prepare patches for e-mail submission
   - [`git help`](docs/commands/GIT-HELP.md) - display help information about Git
   - [`git init`](docs/commands/GIT-INIT.md) - create an empty Git repository or reinitialize an existing
   - [`git log`](docs/commands/GIT-LOG.md) - show commit logs
