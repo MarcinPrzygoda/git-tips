@@ -14,6 +14,10 @@ It is conceptually similar to **copy-paste operation**. However, new commits hav
 
 You can cherry-pick commits from any branch that is **visible** to you. However, you cannot cherry-pick **a merge commit**.
 
+## 📌 Conflicts when cherry-picking
+
+When you `cherry-pick` a commit, it's possible for it to **have conflicts**. And if you do have conflicts, it will work just like a [`merge`](../concepts/MERGE-CONFLICTS.md) does.
+
 ## 📌 Example
 
 ### Cherry-pick a commit
