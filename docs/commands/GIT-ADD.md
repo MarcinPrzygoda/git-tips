@@ -5,6 +5,7 @@
 | `git add <file>..`                        | add files to the staging index [🔗](#add-files-to-the-staging-index)                                   |
 | `git add .`                               | add all files contents in current directory to the staging index [🔗](#add-files-to-the-staging-index) |
 | `git add -i`<br />`git add --interactive` | enter staging in interactive mode [🔗](#run-interactive-staging)                                       |
+| `git add -p`<br />`git add --patch`       | enter staging in patch mode (shortcut to patch mode in interactive staging)                           |
 
 ## 📌 Untracked file
 
