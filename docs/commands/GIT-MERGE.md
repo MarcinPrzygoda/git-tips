@@ -14,7 +14,7 @@
 
 Most of the time you'll **let git handle merge process** and decide whether it should be a fast-forward or non-fast-forward merge.
 
-## 📌 Merge conflicts
+## 📌 Conflicts when merging
 
 See [Merge conflicts](../concepts/MERGE-CONFLICTS.md)
 

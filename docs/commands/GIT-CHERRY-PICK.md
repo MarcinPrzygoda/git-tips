@@ -16,7 +16,7 @@ You can cherry-pick commits from any branch that is **visible** to you. However,
 
 ## 📌 Conflicts when cherry-picking
 
-When you `cherry-pick` a commit, it's possible for it to **have conflicts**. And if you do have conflicts, it will work just like a [`merge`](../concepts/MERGE-CONFLICTS.md) does.
+When you `cherry-pick` a commit, it's possible for it to **have conflicts**. And if you do have conflicts, it will work just like [merge conflicts](../concepts/MERGE-CONFLICTS.md) do.
 
 ## 📌 Example
 
