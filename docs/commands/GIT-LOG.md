@@ -31,6 +31,7 @@
 | `git log --oneline`                          | show commits in one line with shorter SHA-1 hash [🔗](#show-commits-in-one-line-with-shorter-sha-1-hash)                                                                                                 |
 | `git log --graph`                            | show commits graph [🔗](#show-commits-graph)                                                                                                                                                             |
 | `git log --all --decorate --oneline --graph` | show commits graph of all branches in one line with decoration. Think of the mnemonic `a dog` as a good way to remember this combo [🔗](#show-commits-graph-of-all-branches-in-one-line-with-decoration) |
+| `git log -L 100,150:<file>`                  | show commits related to lines 100-150 of the `<file>`                                                                                                                                                   |
 
 ### Format options
 
