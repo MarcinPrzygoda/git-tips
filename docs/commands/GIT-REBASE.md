@@ -2,10 +2,11 @@
 
 Rebasing means that we **take commits** from **branch** and **replay them** at the end of **another branch**. It is useful to integrate recent commits **without merging**. It maintains a **cleaner**, more **liner project history**.
 
-| COMMAND                             | DESCRIPTION                                                                 |
-| ----------------------------------- | --------------------------------------------------------------------------- |
-| `git rebase <base-branch>`          | rebase current branch to tip of `<base-branch>` [🔗](#rebase-current-branch) |
-| `git rebase <base-branch> <branch>` | rebase `<branch>` to tip of `<base-branch>`                                 |
+| COMMAND                                                      | DESCRIPTION                                                                                                                   |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `git rebase <base-branch>`                                   | rebase current branch to tip of `<base-branch>` [🔗](#rebase-current-branch)                                                   |
+| `git rebase <base-branch> <branch>`                          | rebase `<branch>` to tip of `<base-branch>`                                                                                   |
+| `git rebase --onto <base-branch> <upstream-branch> <branch>` | gather up the commits since `<branch>` diverged from `<upstream-branch>`, then replay those commits on tip of `<base-branch>` |
 
 ## 📌 Conflicts when rebasing
 
@@ -14,6 +15,12 @@ When you `rebase` a branch, it's possible for it to **have conflicts**. And if y
 ## 📌 Merge vs Rebase
 
 See [Merge vs Rebase](../concepts/MERGE-VS-REBASE.md)
+
+## 📌 How to undo a rebase
+
+You can undo a simple rebase by:
+- [`git rebase --hard ORIG_HEAD`](../commands/GIT-RESET.md), unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`)
+- rebasing to former `merge-base` SHA-1 hash: `git rebase --onto <former-commit> <upstream-branch> <branch>`
 
 ## 📌 Example
 

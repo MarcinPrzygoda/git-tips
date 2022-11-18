@@ -8,12 +8,13 @@ Most of the time you only want to do resets, when you're working in **your own p
 
 ## 📌 Types of reset
 
-| COMMAND                        | DESCRIPTION                                          |
-| ------------------------------ | ---------------------------------------------------- |
-| `git reset --soft <tree-ish>`  | perform soft reset [🔗](#soft-reset)                  |
-| `git reset --mixed <tree-ish>` | perform mixed reset [🔗](#mixed-reset)                |
-| `git reset --hard <tree-ish>`  | perform hard reset [🔗](#hard-reset)                  |
-| `git reset HEAD <file>...`     | unstage files (with mixed reset) [🔗](#unstage-files) |
+| COMMAND                        | DESCRIPTION                                                                                       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------- |
+| `git reset --soft <tree-ish>`  | perform soft reset [🔗](#soft-reset)                                                               |
+| `git reset --mixed <tree-ish>` | perform mixed reset [🔗](#mixed-reset)                                                             |
+| `git reset --hard <tree-ish>`  | perform hard reset [🔗](#hard-reset)                                                               |
+| `git reset --hard ORIG_HEAD`   | undo rebase, unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`) |
+| `git reset HEAD <file>...`     | unstage files (with mixed reset) [🔗](#unstage-files)                                              |
 
 - **soft**:
   - moves HEAD pointer
