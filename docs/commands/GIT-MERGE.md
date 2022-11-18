@@ -18,6 +18,10 @@ Most of the time you'll **let git handle merge process** and decide whether it s
 
 See [Merge conflicts](../concepts/MERGE-CONFLICTS.md)
 
+## 📌 Merge vs Rebase
+
+See [Merge vs Rebase](../concepts/MERGE-VS-REBASE.md)
+
 ## 📌 Example
 
 ### Merge branch

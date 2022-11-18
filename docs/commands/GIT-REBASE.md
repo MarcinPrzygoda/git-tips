@@ -7,6 +7,10 @@ Rebasing means that we **take commits** from **branch** and **replay them** at t
 | `git rebase <base-branch>`          | rebase current branch to tip of `<base-branch>` [🔗](#rebase-current-branch) |
 | `git rebase <base-branch> <branch>` | rebase `<branch>` to tip of `<base-branch>`                                 |
 
+## 📌 Merge vs Rebase
+
+See [Merge vs Rebase](../concepts/MERGE-VS-REBASE.md)
+
 ## 📌 Example
 
 ### Rebase current branch
