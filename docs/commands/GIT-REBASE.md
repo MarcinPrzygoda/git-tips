@@ -31,7 +31,7 @@ If commits have more than one author, then `squash`/`fixup` is going to use the 
 ## 📌 How to undo a rebase
 
 You can undo a simple rebase by:
-- [`git rebase --hard ORIG_HEAD`](../commands/GIT-RESET.md), unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`)
+- [`git rebase --hard ORIG_HEAD`](../commands/GIT-RESET.md#-undounstage-operation), unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`)
 - rebasing to former `merge-base` SHA-1 hash: `git rebase --onto <former-commit> <upstream-branch> <branch>`
 
 ## 📌 Example

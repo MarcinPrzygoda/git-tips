@@ -8,13 +8,11 @@ Most of the time you only want to do resets, when you're working in **your own p
 
 ## 📌 Types of reset
 
-| COMMAND                        | DESCRIPTION                                                                                       |
-| ------------------------------ | ------------------------------------------------------------------------------------------------- |
-| `git reset --soft <tree-ish>`  | perform soft reset [🔗](#soft-reset)                                                               |
-| `git reset --mixed <tree-ish>` | perform mixed reset [🔗](#mixed-reset)                                                             |
-| `git reset --hard <tree-ish>`  | perform hard reset [🔗](#hard-reset)                                                               |
-| `git reset --hard ORIG_HEAD`   | undo rebase, unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`) |
-| `git reset HEAD <file>...`     | unstage files (with mixed reset) [🔗](#unstage-files)                                              |
+| COMMAND                        | DESCRIPTION                           |
+| ------------------------------ | ------------------------------------- |
+| `git reset --soft <tree-ish>`  | perform soft reset [🔗](#soft-reset)   |
+| `git reset --mixed <tree-ish>` | perform mixed reset [🔗](#mixed-reset) |
+| `git reset --hard <tree-ish>`  | perform hard reset [🔗](#hard-reset)   |
 
 - **soft**:
   - moves HEAD pointer
@@ -51,11 +49,13 @@ Most of the time you only want to do resets, when you're working in **your own p
 - previous commits and all changes will be **discarded**
 - be careful about amending commits which have been **shared with others**
 
-## 📌 Undo reset
+## 📌 Undo/unstage operation
 
-| COMMAND                   | DESCRIPTION                                                                                                                                                                                                                                |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `git reset <commit-hash>` | undo `git reset` command: you can do it in **short term**. When we do a reset and there's nothing pointing at those commits that are later on, then git feels like it's able to delete them during **garbage collection** [🔗](#undo-reset) |
+| COMMAND                      | DESCRIPTION                                                                                                                                                                                                                                |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `git reset <commit-hash>`    | undo `git reset` command: you can do it in **short term**. When we do a reset and there's nothing pointing at those commits that are later on, then git feels like it's able to delete them during **garbage collection** [🔗](#undo-reset) |
+| `git reset --hard ORIG_HEAD` | undo `git rebase` command, unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`)                                                                                                                            |
+| `git reset HEAD <file>...`   | unstage files (with mixed reset) [🔗](#unstage-files)                                                                                                                                                                                       |
 
 ## 📌 Example
 
