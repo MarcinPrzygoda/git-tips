@@ -2,11 +2,13 @@
 
 Rebasing means that we **take commits** from **branch** and **replay them** at the end of **another branch**. It is useful to integrate recent commits **without merging**. It maintains a **cleaner**, more **liner project history**.
 
-| COMMAND                                                      | DESCRIPTION                                                                                                                   |
-| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| `git rebase <base-branch>`                                   | rebase current branch to tip of `<base-branch>` [🔗](#rebase-current-branch)                                                   |
-| `git rebase <base-branch> <branch>`                          | rebase `<branch>` to tip of `<base-branch>`                                                                                   |
-| `git rebase --onto <base-branch> <upstream-branch> <branch>` | gather up the commits since `<branch>` diverged from `<upstream-branch>`, then replay those commits on tip of `<base-branch>` |
+| COMMAND                                                                     | DESCRIPTION                                                                                                                   |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `git rebase <base-branch>`                                                  | rebase current branch to tip of `<base-branch>` [🔗](#rebase-current-branch)                                                   |
+| `git rebase <base-branch> <branch>`                                         | rebase `<branch>` to tip of `<base-branch>`                                                                                   |
+| `git rebase --onto <base-branch> <upstream-branch> <branch>`                | gather up the commits since `<branch>` diverged from `<upstream-branch>`, then replay those commits on tip of `<base-branch>` |
+| `git rebase -i <base-branch>`<br />`git rebase --interactive <base-branch>` | enter rebase in interactive mode                                                                                              |
+| `git rebase -i HEAD~3`                                                      | rebase last 3 commits interactively onto the same branch, but with the opportunity to modify them                             |
 
 ## 📌 Conflicts when rebasing
 
