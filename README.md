@@ -25,6 +25,7 @@ Tips for Git - open source distributed Version Control System (VCS)
   - [`git add`](docs/commands/GIT-ADD.md) - add file contents to the staging index
   - [`git am`](docs/commands/GIT-AM.md) - apply a series of patches from a mailbox
   - [`git apply`](docs/commands/GIT-APPLY.md) - apply a patch to files and/or to the staging index
+  - [`git bisect`](docs/commands/GIT-BISECT.md) - use binary search to find the commit that introduced a bug
   - [`git blame`](docs/commands/GIT-BLAME.md) - show what revision and author last modified each line of a file
   - [`git branch`](docs/commands/GIT-BRANCH.md) - list, create or delete branches
   - [`git checkout`](docs/commands/GIT-CHECKOUT.md) - switch branches or restore working directory files
@@ -77,4 +78,4 @@ Tips for Git - open source distributed Version Control System (VCS)
 - [Git Documentation](https://git-scm.com/docs)
 - ["Git Essential Training: The Basics" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-essential-training-the-basics) [🔗](https://www.linkedin.com/learning/certificates/9038e6a7ba9013e369aec599d77754b6d8fc369e15a88e69a623dab9552254d0)
 - ["Git: Branches, Merges, and Remotes" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-branches-merges-and-remotes) [🔗](https://www.linkedin.com/learning/certificates/f0fba2721dd5ddb4bfc8c1bc2400dba5e018c87ac1bedb9d08961e83c8e41aba)
-- ["Git Intermediate Techniques" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-intermediate-techniques-2018)
+- ["Git Intermediate Techniques" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-intermediate-techniques-2018) [🔗](https://www.linkedin.com/learning/certificates/0e176739f715e53d2c62da1ab710aebad79ef09d9cdf2d8435a39fc1654a3bab)
