@@ -18,6 +18,7 @@ Tips for Git - open source distributed Version Control System (VCS)
 ## 🔌 Setup
 - [Git Aliases](docs/setup/GIT-ALIASES.md)
 - [Git Prompt](docs/setup/GIT-PROMPT.md)
+- [Autocrlf](docs/setup/AUTOCRLF.md)
 
 ## 🌳 Table of Contents
 
@@ -79,3 +80,4 @@ Tips for Git - open source distributed Version Control System (VCS)
 - ["Git Essential Training: The Basics" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-essential-training-the-basics) [🔗](https://www.linkedin.com/learning/certificates/9038e6a7ba9013e369aec599d77754b6d8fc369e15a88e69a623dab9552254d0)
 - ["Git: Branches, Merges, and Remotes" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-branches-merges-and-remotes) [🔗](https://www.linkedin.com/learning/certificates/f0fba2721dd5ddb4bfc8c1bc2400dba5e018c87ac1bedb9d08961e83c8e41aba)
 - ["Git Intermediate Techniques" by Kevin Skoglund \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-intermediate-techniques-2018) [🔗](https://www.linkedin.com/learning/certificates/0e176739f715e53d2c62da1ab710aebad79ef09d9cdf2d8435a39fc1654a3bab)
+- ["Git for Teams" by Kevin Bowersox \[LinkedIn Learning\]](https://www.linkedin.com/learning/git-for-teams)
