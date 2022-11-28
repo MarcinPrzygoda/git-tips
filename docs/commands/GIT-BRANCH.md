@@ -17,6 +17,20 @@ The default branch name in Git is **master** (in GitHub it is **main**).
 | `git branch -u <upstream> <branch>`       | set `<upstream>` ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference for `<branch>`                                                       |
 | `git branch --unset-upstream <branch>`    | unset upstream ([**tracking**](../concepts/TRACK-REMOTE-BRANCHES.md)) reference for `<branch>`                                                         |
 
+## 📌 Branch naming convention
+
+Remember, **every commit** on `main` branch is a **new release** by definition.
+
+| BRANCH NAME           | DESCRIPTION                                                                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `develop`             | branch with an infinite lifetime (similarly to `main`) where development process is done                                                      |
+| `release/version`     | branch preparing a release (branch off from `develop`, merge back into `develop` and `main`)                                                  |
+| `feature/branch-name` | branch adding a new functionality during development process (branch off from `develop`, merge back into `develop`)                           |
+| `bugfix/branch-name`  | branch fixing a bug during development process (branch off from `develop`/`release`/`feature`, merge back into `develop`/`release`/`feature`) |
+| `hotfix/branch-name`  | branch patching a bug on already released version (branch off from `main`, merge back into `develop`/`release` and `main`)                    |
+
+See "[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)" for more information.
+
 ## 📌 Renaming branches
 
 You don't want to start renaming your branches **if other people are already using them by another name**.
