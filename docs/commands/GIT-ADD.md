@@ -1,11 +1,14 @@
 # 📋 `git add` - add file contents to the staging index
 
-| COMMAND                                   | DESCRIPTION                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `git add <file>..`                        | add files to the staging index [🔗](#add-files-to-the-staging-index)                                   |
-| `git add .`                               | add all files contents in current directory to the staging index [🔗](#add-files-to-the-staging-index) |
-| `git add -i`<br />`git add --interactive` | enter staging in interactive mode [🔗](#run-interactive-staging)                                       |
-| `git add -p`<br />`git add --patch`       | enter staging in patch mode (shortcut to patch mode in interactive staging)                           |
+| COMMAND             | DESCRIPTION                                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------------ |
+| `git add <file>...` | add files to the staging index [🔗](#add-a-file-to-the-staging-index)                             |
+| `git add .`         | add all files in current directory to the staging index [🔗](#add-all-files-to-the-staging-index) |
+
+| OPTION                    | DESCRIPTION                                                                 |
+| ------------------------- | --------------------------------------------------------------------------- |
+| `-i`<br />`--interactive` | enter staging in interactive mode [🔗](#run-interactive-staging)             |
+| `-p`<br />`--patch`       | enter staging in patch mode (shortcut to patch mode in interactive staging) |
 
 ## 📌 Untracked file
 
@@ -13,13 +16,17 @@
 
 ## 📌 Interactive staging
 
-Interactive staging enters an **interface** that allows to **move files** or **portions of changed files** in and out of staging area.
+Interactive staging enters an **interface** that allows to **move files** or **portions of changed files** in and out of staging index.
 
 ## 📌 Example
 
-### Add files to the staging index
+### Add a file to the staging index
 
 ![](images/git-add.png)
+
+### Add all files to the staging index
+
+![](images/git-add-all-files.png)
 
 ### Run interactive staging
 
