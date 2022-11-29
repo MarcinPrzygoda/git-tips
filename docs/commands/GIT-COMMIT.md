@@ -1,11 +1,14 @@
 # 📋 `git commit` - record changes to the repository
 
-| COMMAND                             | DESCRIPTION                                                                                                           |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `git commit`                        | create a new commit containing the current contents of the staging index and multiline message describing the changes |
-| `git commit -m "<message>"`         | create a new commit with one line `<message>` [🔗](#commit-changes)                                                    |
-| `git commit -am "<message>"`        | automatically stage tracked files that have been modified/deleted and create a new commit                             |
-| `git commit --amend -m "<message>"` | replace the tip of the current branch by creating a new commit [🔗](#amend-commit)                                     |
+| COMMAND      | DESCRIPTION                                                                                                                                                       |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git commit` | create a new commit containing the current contents of the staging index and multiline message describing the changes [🔗](#commit-changes-with-multiline-message) |
+
+| OPTION                                        | DESCRIPTION                                                                                                                                         |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `-a`<br />`--all`                             | automatically stage tracked files that have been modified/deleted and create a new commit [🔗](#automatically-stage-tracked-file-and-commit-changes) |
+| `--amend`                                     | replace the tip of the current branch by creating a new commit [🔗](#amend-commit)                                                                   |
+| `-m "<message>"`<br />`--message "<message>"` | create a new commit with one line `<message>` [🔗](#commit-changes-with-one-line-message)                                                            |
 
 ## 📌 Commit message best practices
 
@@ -19,7 +22,7 @@
 
 ## 📌 No commit message
 
-When Git is not provided a commit message, it will **abort the commit**. Using the "-m" option with empty quotes has the same result as exiting a text editor without providing a message.
+When Git is not provided a commit message, it will **abort the commit**. Using the `-m` option with empty quotes has the same result as exiting a text editor without providing a message.
 
 ## 📌 Atomic commit
 
@@ -28,14 +31,20 @@ When Git is not provided a commit message, it will **abort the commit**. Using t
 - **easier** to understand, to work with and to find bugs
 - **improves** collaboration
 
-## 📌 Example
+## 📌 Examples
 
-### Commit changes
+### Commit changes with multiline message
 
 ![](images/git-commit.png)
+
+### Commit changes with one line message
+
+![](images/git-commit-message.png)
+
+### Automatically stage tracked file and commit changes
+
+![](images/git-commit-all.png)
 
 ### Amend commit
 
 ![](images/git-commit-amend.png)
-
-![](images/git-commit-amend-result.png)
