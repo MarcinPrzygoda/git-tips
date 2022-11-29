@@ -39,7 +39,7 @@ You don't want to start renaming your branches **if other people are already usi
 
 You can't delete checked out branch and branches which are not fully merged [🔗](#delete-checked-out-branch)
 
-## 📌 Example
+## 📌 Examples
 
 Branch colored **green** means that this is checked out branch.
 

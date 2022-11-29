@@ -57,7 +57,7 @@ Most of the time you only want to do resets, when you're working in **your own p
 | `git reset --hard ORIG_HEAD` | undo `git rebase` command, unless `ORIG_HEAD` has changed again (`rebase`, `reset`, `merge` change `ORIG_HEAD`)                                                                                                                            |
 | `git reset HEAD <file>...`   | unstage files (with mixed reset) [🔗](#unstage-files)                                                                                                                                                                                       |
 
-## 📌 Example
+## 📌 Examples
 
 ### Soft reset
 

@@ -6,7 +6,7 @@
 | -------------------------- | -------------------------------------------------- |
 | `git apply <file.diff>...` | apply patches from diff files to working directory |
 
-## 📌 Example
+## 📌 Examples
 
 ![](images/git-apply.png)
 

@@ -6,7 +6,7 @@
 | ------------------------ | ---------------------------------------------------- |
 | `git am <file.patch>...` | apply patches in Unix mailbox format and commit them |
 
-## 📌 Example
+## 📌 Examples
 
 ![](images/git-am.png)
 
