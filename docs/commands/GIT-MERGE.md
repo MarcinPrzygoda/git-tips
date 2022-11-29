@@ -22,7 +22,7 @@ See [Merge conflicts](../concepts/MERGE-CONFLICTS.md)
 
 See [Merge vs Rebase](../concepts/MERGE-VS-REBASE.md)
 
-## 📌 Example
+## 📌 Examples
 
 ### Merge branch
 

@@ -12,7 +12,7 @@
 
 Running `git init` in an **existing repository** is **safe**. It will not overwrite things that are already there.
 
-## 📌 Example
+## 📌 Examples
 
 ### Initialize local Git repository
 

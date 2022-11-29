@@ -20,7 +20,7 @@ If you have a conflict, you can:
 - **remove** the changes
 - **stash** the changes - stashes are like a **little pocket** where you can put the changes and pull them out when you're ready
 
-## 📌 Example
+## 📌 Examples
 
 ### Switch to branch
 

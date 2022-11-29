@@ -25,7 +25,7 @@ Every commit **links** to the commit that comes before it. So, most commits are 
 
 **Tilde** `~` symbol **with number** should be used when we need to **go back three or more generations** (as it is shorter than adding carets).
 
-## 📌 Example
+## 📌 Examples
 
 ### Child
 

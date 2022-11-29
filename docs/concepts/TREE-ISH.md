@@ -22,7 +22,7 @@ In simple terms, a tree-ish is a **directory** or something that **points to a d
 - [Tag reference](../commands/GIT-TAG.md)
 - [Ancestry](ANCESTRY.md)
 
-## 📌 Example
+## 📌 Examples
 
 We can use `git show` with **SHA-1 hash** (`git show 6d48` will also work):
 

@@ -43,7 +43,7 @@
 - email
 - raw
 
-## 📌 Example
+## 📌 Examples
 
 ### Show last three commits
 

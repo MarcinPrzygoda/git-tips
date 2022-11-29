@@ -18,7 +18,7 @@
 
 Interactive staging enters an **interface** that allows to **move files** or **portions of changed files** in and out of staging index.
 
-## 📌 Example
+## 📌 Examples
 
 ### Add a file to the staging index
 

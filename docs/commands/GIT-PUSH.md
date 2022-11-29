@@ -20,7 +20,7 @@ We use force push when:
 
 Use it with **extreme caution**. It is an easy way to anger your whole development team, because other commits can **disappear**. Any subsequent commits that they've made in their local repository that were dependent on those commits, are now **orphaned**.
 
-## 📌 Example
+## 📌 Examples
 
 ### Push committed changes on branch into remote repository
 

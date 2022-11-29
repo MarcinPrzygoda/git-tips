@@ -9,7 +9,7 @@
 
 Without tracking reference, we'll need to specify the remote branch **every single time** we want to interact with it (`push`/`fetch`/`pull`).
 
-## 📌 Example
+## 📌 Examples
 
 ### Git Push without setting upstream
 

@@ -4,7 +4,7 @@
 | ------------------------------- | ----------------------------------------------- |
 | `git mv <source> <destination>` | move or rename a file, a directory or a symlink |
 
-## 📌 Example
+## 📌 Examples
 
 ### Move a file
 
