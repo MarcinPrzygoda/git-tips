@@ -5,10 +5,10 @@
 | `git add <file>...` | add files to the staging index [🔗](#add-a-file-to-the-staging-index)                             |
 | `git add .`         | add all files in current directory to the staging index [🔗](#add-all-files-to-the-staging-index) |
 
-| OPTION                    | DESCRIPTION                                                                 |
-| ------------------------- | --------------------------------------------------------------------------- |
-| `-i`<br />`--interactive` | enter staging in interactive mode [🔗](#run-interactive-staging)             |
-| `-p`<br />`--patch`       | enter staging in patch mode (shortcut to patch mode in interactive staging) |
+| OPTION                    | DESCRIPTION                                                                                                 |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `-i`<br />`--interactive` | enter staging in interactive mode [🔗](#run-staging-in-interactive-mode)                                     |
+| `-p`<br />`--patch`       | enter staging in patch mode (shortcut to patch mode in interactive staging) [🔗](#run-staging-in-patch-mode) |
 
 ## 📌 Untracked file
 
@@ -28,7 +28,7 @@ Interactive staging enters an **interface** that allows to **move files** or **p
 
 ![](images/git-add-all-files.png)
 
-### Run interactive staging
+### Run staging in interactive mode
 
 Interactive update (add to staging):
 
@@ -57,3 +57,11 @@ Interactive patch with splitting hunks:
 Interactive patch with editing hunks:
 
 ![](images/git-add-interactive-staging-patch-edit.png)
+
+Interactive patch help:
+
+![](images/git-add-interactive-staging-help.png)
+
+## Run staging in patch mode
+
+![](images/git-add-patch-mode.png)
