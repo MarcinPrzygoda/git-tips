@@ -1,10 +1,13 @@
-📋 `git cherry-pick` - apply the changes introduced by some existing commits
+# 📋 `git cherry-pick` - apply the changes introduced by some existing commits
 
-| COMMAND                                                              | DESCRIPTION                                                                                         |
+| COMMAND                              | DESCRIPTION                                                         |
+| ------------------------------------ | ------------------------------------------------------------------- |
+| `git cherry-pick <commit>`           | cherry-pick a `<commit>` [🔗](#cherry-pick-a-commit)                 |
+| `git cherry-pick <commit>..<commit>` | cherry-pick a range of commits [🔗](#cherry-pick-a-range-of-commits) |
+
+| OPTION                                                               | DESCRIPTION                                                                                         |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| `git cherry-pick <commit>`                                           | cherry-pick a `<commit>` [🔗](#cherry-pick-a-commit)                                                 |
-| `git cherry-pick <commit>..<commit>`                                 | cherry-pick a range of commits [🔗](#cherry-pick-a-range-of-commits)                                 |
-| `git cherry-pick -e <commit>`<br />`git cherry-pick --edit <commit>` | cherry-pick a `<commit>` and edit commit message [🔗](#cherry-pick-a-commit-and-edit-commit-message) |
+| `-e`<br />`--edit` | cherry-pick a `<commit>` and edit commit message [🔗](#cherry-pick-a-commit-and-edit-commit-message) |
 
 ## 📌 Cherry-picking commits
 
