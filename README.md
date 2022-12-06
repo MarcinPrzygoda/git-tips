@@ -1,6 +1,12 @@
 # 📖 GIT TIPS
 
 <p>
+  <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" rel="noreferrer">
+      <img src="https://img.shields.io/badge/GIT-Installation-F05033?logo=git&logoColor=white" alt="GIT: Installation"/>
+  </a>
+  <a href="https://github.com/git/git/tree/master/Documentation/RelNotes" rel="noreferrer">
+      <img src="https://img.shields.io/badge/GIT-Release_Notes-F05033?logo=git&logoColor=white" alt="GIT: Release Notes"/>
+  </a>
   <a href="https://git-scm.com/doc" rel="noreferrer">
       <img src="https://img.shields.io/badge/GIT-Documentation-F05033?logo=git&logoColor=white" alt="GIT: Documentation"/>
   </a>
